@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 900px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.players {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 30px;
+}
+
+.player img {
+  width: 60px;
+  margin-right: 15px;
+}
+.player {
+  display: flex;
+  align-items: center;
+}
